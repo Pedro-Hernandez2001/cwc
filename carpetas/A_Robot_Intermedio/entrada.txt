@@ -1,0 +1,29 @@
+Robot r2
+r2.iniciar
+r2.base = 90
+r2.velocidad = 50
+r2.codo = 45
+r2.velocidad = 40
+r2.hombro = 45
+r2.velocidad = 45
+r2.garra = 30
+r2.velocidad = 55
+r2.repetir = 2 {
+    r2.garra = 0
+    r2.velocidad = 35
+    r2.base = 180
+    r2.velocidad = 45
+    r2.hombro = 135
+    r2.velocidad = 40
+    r2.codo = 90
+    r2.velocidad = 35
+    r2.garra = 90
+    r2.velocidad = 50
+    r2.base = 0
+    r2.velocidad = 45
+    r2.hombro = 0
+    r2.velocidad = 40
+    r2.codo = 0
+    r2.velocidad = 35
+}
+r2.finalizar
